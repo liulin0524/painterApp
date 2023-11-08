@@ -1,0 +1,85 @@
+.logo-wrap,
+.user-logo-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #2e3242;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+
+  .logo {
+    width: 116px;
+    height: 116px;
+    margin-right: 24px;
+    border-radius: 50%;
+  }
+
+  .login {
+    color: #2E3242;
+    font-weight: bold;
+  }
+
+  .user-info {
+    font-size: 24px;
+    color: #939AB8;
+    font-weight: 400;
+    position: absolute;
+    top: 16px;
+    right: 0;
+    .go {
+      position: relative;
+      top: 6px;
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  .position {
+    font-size: 28px;
+    color: #939AB8;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 8px 0;
+  }
+
+  .identity {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    color: #939AB8;
+    font-weight: 400;
+    margin-top: 16px;
+    .v {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+    }
+  }
+  
+}
+
+.intro {
+  display: flex;
+  position: relative;
+  font-size: 32px;
+  background-color: #d5dbf5;
+  font-weight: 400;
+  margin-top: 12px;
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  color: #999;
+
+  .go {
+    position: absolute;
+    right: 36px;
+    top:30px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .num {
+    color: #3e74ca;
+  }
+}

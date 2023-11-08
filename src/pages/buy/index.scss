@@ -1,0 +1,80 @@
+
+Page{
+  background:#F1F2F4;
+}
+
+.buy-wrap{
+  margin-top: 20px;
+
+  .at-tabs__item--active{
+    color: #333;
+    background-color: #fff !important;
+  }
+
+  .at-tabs__item--active .at-tabs__item-underline{
+    transform: scaleX(0);
+  }
+
+  .at-tabs__item{
+    background-color: #F1F2F4;
+    height: 45px;
+    font-size: 32px;
+  }
+
+  .at-tabs__underline {
+    display: none;
+  }
+  .at-tabs__body{
+  }
+
+
+  .buy-content{
+    height: calc(100vh - 240px);
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0  28px;
+
+    .item{
+      margin-top: 20px;
+      display: flex;
+      border: 1px solid #e6e6e6;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px;
+      font-size: 36px;
+      border-radius: 10px;
+
+      &:first-child{
+        margin-top: 60px;
+      }
+    }
+    .item-active{
+      background-color: #d5dbf5;
+      border: 1px solid #3e74ca;
+    }
+
+    .buy-current{
+      color: #3e74ca;
+      margin-right: 10px;
+    }
+
+    .buy-old{
+      font-size: 28px;
+      text-decoration: line-through;
+    }
+  }
+
+  .buy-bottom{
+    text-align: center;
+
+    .buy-agreement{
+      margin-bottom: 10px;
+    }
+  }
+
+  .blue{
+    color: #3e74ca;
+  }
+}

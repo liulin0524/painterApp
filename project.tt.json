@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "painterApp",
+  "description": "大画家",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
